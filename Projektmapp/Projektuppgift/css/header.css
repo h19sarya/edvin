@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 0.7rem;
+    font-family: 'Signika', sans-serif;
+    color: #777;
+  
+
+}
+
+.header {
+    background-color: #fff;
+    font-family: 'Signika', sans-serif;
+    font-size: 0.6rem;
+    padding:1rem;
+    color: #000;
+    text-align: center;
+ 
+}
+
+
+.navbar {
+    float: left;
+   
+    text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+    text-decoration: none;
+    font-size: 0.7rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    font-family: 'Signika', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+    
+
+
+
+.navbar .listitems{
+    list-style: none;
+    overflow: hidden;
+    
+
+}
+li {
+float: left;    
+text-decoration: none;
+}
+
+li.rightside {
+    float: right;
+    font-size: 0.7rem;
+    font-family: 'Signika', sans-serif;
+    font-weight: lighter;
+}
+
+li a {
+    color: #706e6e;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+li a:hover, li a.active {
+    
+    color: #adb1b3;
+    text-decoration: none;
+}
+
+
+
+  @import url(https://fonts.googleapis.com/css?family=Istok+Web);
+  @keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body, figure { 
+    margin: 0; background: #101010;
+    font-family: Istok Web, sans-serif;
+    font-weight: 100;
+  }
+  div#captioned-gallery { 
+    width: 100%; overflow: hidden; 
+  }
+  figure.slider { 
+    position: relative; width: 500%;
+    font-size: 0; animation: 30s slidy infinite; 
+  }
+  figure.slider figure { 
+    width: 20%; height: auto;
+    display: inline-block;  position: inherit; 
+  }
+  figure.slider img { width: 100%; height: auto; }
+  figure.slider figure figcaption { 
+    position: absolute; 
+    background: #fff;
+    color: #fff; width: 100%;
+    font-size: 1rem;
+    
+  }
