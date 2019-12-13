@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: 'Signika', sans-serif;
+    color: #777;
+  
+
+}
+
+header {
+
+  text-align: center;
+background-color: #fff;
+}
+
+
+
+.navbar {
+    float: left;
+   
+    text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+    text-decoration: none;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    font-family: 'Neucha';
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    
+}
+    
+
+
+
+.navbar .listitems{
+    list-style: none;
+    overflow: hidden;
+    
+    
+
+}
+li {
+float: left;    
+text-decoration: none;
+}
+
+li.rightside {
+    float: right;
+    font-size: 0.7rem;
+    font-family: 'Signika', sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+
+}
+
+li a {
+    color: #706e6e;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+li a:hover, li a.active {
+    
+    color: #adb1b3;
+    text-decoration: none;
+}
+.kundkorg {
+  float:right;
+
+}
+
+
+div.container {
+  width: 80%;
+  margin: 0px auto 0;
+  background-color: #fff;
+  color: #000;
+  overflow: hidden;
+  display: flex; 
+  flex-flow: row wrap;
+justify-content: center;
+
+  
+}
+
+
+
+
+
+
+.container h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #000;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+p.ingress {
+  font-size: 1rem;
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  color: #000;
+
+}
+.container > .content {
+  width: 33.333%;
+  min-width: 200px;
+  margin-bottom: 20px; 
+  padding: 10px;
+  order: 2;
+  flex-flow: row wrap;
+ 
+
+}
+
+
+
+
+  @import url(https://fonts.googleapis.com/css?family=Istok+Web);
+  @keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body, figure { 
+    margin: 0; background: #fff;
+    font-family: Istok Web, sans-serif;
+    font-weight: 100;
+  }
+  div#captioned-gallery { 
+    width: 100%; overflow: hidden; 
+  }
+  figure.slider { 
+    position: relative; width: 500%;
+    font-size: 0; animation: 15s slidy infinite; 
+  }
+  figure.slider figure { 
+    width: 20%; height: auto;
+    display: inline-block;  position: inherit; 
+  }
+  figure.slider img { width: 100%; height: auto; }
+  figure.slider figure figcaption { 
+    position: absolute; 
+    background: #fff;
+    color: #fff; width: 100%;
+    font-size: 1rem;
+    
+  }
